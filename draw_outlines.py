@@ -15,9 +15,9 @@ Usage:
        values follow the order blue, green, red preferred by OpenCV.
     2. Run the script using the following command:
     
-        python visualise_outlines.py -i input.tsv -c "boxes_1" -g "input_image"
+        python draw_outlines.py -i input.tsv -c "boxes_1" -g "input_image"
     
-       For information on the arguments, run the command: python visualise_outlines.py --help
+       For information on the arguments, run the command: python draw_outlines.py --help
     
     3. The script will write the annotated images on disk to the location determined by the 
        "output" argument.
